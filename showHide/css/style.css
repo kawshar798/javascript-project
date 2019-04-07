@@ -1,0 +1,32 @@
+.background-image{
+    min-height: 600px;
+    background: url(../img/slider-1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.silder.background-image {
+    position: relative;
+}
+
+.silder.background-image i {
+    position: absolute;
+    color: #fff;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    width: 40px;
+    cursor: pointer;
+    
+}
+i.fa.fa-arrow-left.btn-left {
+    left: 20px;
+    right: auto;
+}
+i.fa.fa-arrow-right.btn-right {
+    left:auto;
+    right: 20px;
+}
